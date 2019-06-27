@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e6ecf0;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+header#main-header {
+  height: 46px;
+  background: #fff;
+}
+
+header#main-header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header nav ul li {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #667580;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header#main-header nav ul li:first-child {
+  margin: 0;
+}
+
+header#main-header nav ul li img {
+  margin-right: 7px;
+}
+
+header#main-header div.side {
+  display: flex;
+}
+
+header#main-header div.side input {
+  width: 220px;
+  background: #f5f8fa;
+  border: 1px solid #e6ecf0;
+  height: 34px;
+  padding: 0 30px 0 12px;
+  border-radius: 16px;
+  color: #667581;
+  font-size: 12px;
+  background: #f5f8fa url(./images/search.svg) no-repeat 180px center;
+}
+
+input,
+button {
+  outline: 0;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header div.side img {
+  height: 34px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+header#main-header div.side button {
+  height: 34px;
+  background: #3bb9e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 16px;
+}
+
+header#main-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+div.banner {
+  height: 380px;
+  width: 100%;
+  background: #3bb9e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+div.bar {
+  height: 59px;
+  background: #fff;
+}
+div.bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.bar .content ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+div.bar .content ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+div.bar .content ul li.active::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 1;
+  left: 1;
+  background: #3bb9e3;
+}
+
+div.bar .content ul li span {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.bar .content ul li strong {
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar .content .actions button {
+  height: 34px;
+  background: #3bb9e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 16px;
+}
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.Profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.Profile img.Avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+div.wrapper-content aside.Profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.Profile span {
+  font-size: 14px;
+  color: #53626c;
+  margin-top: -10px;
+}
+
+div.wrapper-content aside.Profile p {
+  font-size: 18px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.Profile ul {
+  font-size: 14px;
+  color: #53626c;
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.wrapper-content aside.Profile ul.list li {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.Profile ul.list li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.Profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.Profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.Profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.Profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  background: #d0d5d9;
+  flex-grow: 1;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0 5px 10px 0;
+}
+
+div.wrapper-content aside.Profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.Profile .images ul li {
+  width: 80px;
+  height: 80px;
+  background: #d0d5d9;
+  flex-grow: 1;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin: 0 5px 5px 0;
+}

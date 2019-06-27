@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 19" width="20" height="19">
+	<defs>
+		<image width="20" height="19" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAxOSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE5Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMjAgMEwyMCAxOUwwIDE5WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICM2Njc1ODAgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGFzcz0ic2hwMCIgZD0iTTEuOCA2LjkyTDAuNzcgNy41M0wwIDYuMjRMMTAuNDEgMEwxOS44IDYuMjZMMTguOTcgNy41MUwxNy45OCA2Ljg1TDE2LjQgMTYuMzRDMTYuMTggMTcuNjcgMTUuMDQgMTguNjQgMTMuNjkgMTguNjRMNi4wOCAxOC42NEM0Ljc0IDE4LjY0IDMuNTkgMTcuNjcgMy4zNyAxNi4zNEwxLjggNi45MlpNMy4xOCA2LjA5TDQuODUgMTYuMDlDNC45NSAxNi43IDUuNDcgMTcuMTQgNi4wOCAxNy4xNEwxMy42OSAxNy4xNEMxNC4zIDE3LjE0IDE0LjgyIDE2LjcgMTQuOTIgMTYuMDlMMTYuNjIgNS45NEwxMC4zNiAxLjc3TDMuMTggNi4wOVpNOS44OSAxMi44OUM3Ljk1IDEyLjg5IDYuMzkgMTEuMzIgNi4zOSA5LjM5QzYuMzkgNy40NSA3Ljk1IDUuODkgOS44OSA1Ljg5QzExLjgyIDUuODkgMTMuMzkgNy40NSAxMy4zOSA5LjM5QzEzLjM5IDExLjMyIDExLjgyIDEyLjg5IDkuODkgMTIuODlaTTkuODkgMTEuMzlDMTAuOTkgMTEuMzkgMTEuODkgMTAuNDkgMTEuODkgOS4zOUMxMS44OSA4LjI4IDEwLjk5IDcuMzkgOS44OSA3LjM5QzguNzggNy4zOSA3Ljg5IDguMjggNy44OSA5LjM5QzcuODkgMTAuNDkgOC43OCAxMS4zOSA5Ljg5IDExLjM5WiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Header">
+		<g id="Navigation">
+			<g id="Home">
+				<use id="Icon: Home" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>
